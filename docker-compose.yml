@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ruby:
+    image: ruby:2.5.0-alpine
+    build: .
+    container_name: accounting_moviment
+    stdin_open: true
+    tty: true
